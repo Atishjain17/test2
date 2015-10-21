@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="java_quiz_questions">
+        <item >Which one of these lists contains only Java programming language keywords?  </item>
+        <item >Which is a valid keyword in java?</item>
+        <item >Which interface does java.util.Hashtable implement?</item>
+        <item >Which is the valid declarations within an interface definition?</item>
+        <item >Which one is a valid declaration of a boolean?</item>
+        <item >What is the numerical range of a char?</item>
+        <item >What is the name of the method used to start a thread execution?</item>
+        <item >Which of the following line of code is suitable to start a thread ?</item>
+        <item >Which statement is true?</item>
+        <item >Which of the following would compile without error?</item>
+        <item >Which statement is true given the following?
+
+Double d = Math.random();</item>
+        <item >The expression str.length returns the length (number of characters) contained in str, a String object</item>
+        <item >Which of the following methods can be used to remove a java.awt.Component object from the display?</item>
+        <item >The setBackground() method is part of the following class in java.awt package:</item>
+        <item >Which are the valid ways to create DataInputStream streams? </item>
+        
+    </string-array>
+    
+    <string-array name="java_quiz_option1">
+        <item >class, if, void, long, Int, continue</item>
+        <item >interface</item>
+        <item >Java.util.Map</item>
+        <item >public double methoda();</item>
+        <item >boolean b1 = 0</item>
+        <item >-128 to 127</item>
+        <item >init();</item>
+        <item >Thread t = new Thread(X);</item>
+        <item >A static method cannot be synchronized</item>
+        <item >int a = Math.abs(-5);</item>
+        <item >0.0 &lt; d &lt;= 1.0</item>
+        <item >True</item>
+        <item >remove()</item>
+        <item >Container</item>
+        <item > new DataInputStream(new File("in.dat"));</item>
+       
+    </string-array>
+    
+    <string-array name="java_quiz_option2">
+        <item >goto, instanceof, native, finally, default, throws</item>
+        <item >string</item>
+        <item >Java.util.List</item>
+        <item >public final double methoda();</item>
+        <item >boolean b2 = \'false\'</item>
+        <item >-(215) to (215) - 1</item>
+        <item >start();</item>
+        <item >Thread t = new Thread(X); t.start();</item>
+        <item >If a class has synchronized code, multiple threads can still access the nonsynchronized code</item>
+        <item >int b = Math.abs(5.0)</item>
+        <item >0.0 &lt;= d &lt; 1.0</item>
+        <item >False</item>
+        <item >move()</item>
+        <item >Applet</item>
+        <item >new DataInputStream(new FileInputStream("in.dat");</item>
+            </string-array>
+    
+    <string-array name="java_quiz_option3">
+        <item >try, virtual, throw, final, volatile, transient</item>
+        <item >float</item>
+        <item >Java.util.HashTable</item>
+        <item >static void methoda(double d1);</item>
+        <item >boolean b3 = false</item>
+        <item >0 to 32767</item>
+        <item >run();</item>
+        <item >X run = new X(); Thread t = new Thread(run); t.start();</item>
+        <item >Variables can be protected from concurrent access problems by marking them with the synchronized keyword</item>
+        <item >int c = Math.abs(5.5F);</item>
+        <item >Compilation fail</item>
+        <item >---- </item>
+        <item >hide()</item>
+        <item >Object</item>
+        <item >new DataInputStream("in.dat")</item>
+       
+    </string-array>
+    
+    <string-array name="java_quiz_option4">
+        <item >strictfp, constant, super, implements, do</item>
+        <item >unsigned</item>
+        <item >Java.util.Collection</item>
+        <item >protected void methoda(double d1);</item>
+        <item >boolean b4 = Boolean.false()</item>
+        <item >0 to 65535</item>
+        <item >resume();</item>
+        <item >Thread t = new Thread(); x.run();</item>
+        <item >When a thread sleeps, it releases its locks</item>
+        <item >int d = Math.abs(5L);</item>
+        <item >Cannot say</item>
+        <item >---- </item>
+        <item >disappear()</item>
+        <item >Component</item>
+        <item >new DataInputStream("in.dat", "r");</item>
+       
+    </string-array>
+    
+    <integer-array name="java_quiz_answer1">
+                <item >1</item>
+                <item >0</item>
+                <item >0</item>
+                <item >0</item>
+                <item >2</item>
+                <item >3</item>
+                <item >1</item>
+                <item >2</item>
+                <item >1</item>
+                <item >0</item>
+                <item >1</item>
+                <item >1</item>
+                <item >2</item>
+                <item >3</item>
+                <item >1</item>
+           
+    </integer-array>
+    
+        <string-array name="c_quiz_questions">
+        <item > Specify the 2 library functions to dynamically allocate memory?</item>
+        <item > Which of the following cannot be checked in a switch-case statement?</item>
+        <item > What is the only function all C programs must contain?</item>
+        <item > Which of the following is not a correct variable type?</item>
+        <item > Evaluate !(1 &amp;&amp; !(0 || 1))</item>
+        <item > What does the following declaration mean?  int[*ptr][10]</item>
+        <item > How many times is a do while loop guaranteed to loop?</item>
+        <item > What will you do to treat the constant 3.14 as a long double?           </item>
+        <item > What variables stores the number of arguments to a program?</item>
+	<item > What does the argument count variable store? </item>
+	<item > Which of the following reads in a string named x with one hundred characters?</item>
+        <item > Which of the following is a complete function?</item>
+        <item > Which of the following is a properly defined struct?</item>
+        <item > Which is a valid typecast?</item>
+        <item >What is the purpose of fflush() function</item>
+        </string-array>
+    
+    <string-array name="c_quiz_option1">
+        
+	<item > malloc() and memalloc() </item>
+        <item > Character </item>
+        <item > start()</item>
+        <item > float</item>
+        <item > True</item>
+        <item > ptr is array of pointers to 10 integers</item>
+        <item > 0</item>
+	<item > use 3.14LD</item>
+        <item > argc</item>
+        <item > The number of arguments </item>
+        <item > fgets(x, 101, stdin);</item>
+        <item > int funct();</item>
+        <item > struct {int a;}</item>
+        <item > a(char);</item>
+        <item >flushes all streams and specified streams</item>
+        
+    </string-array>
+    
+    <string-array name="c_quiz_option2">
+        <item > alloc() and memalloc()</item>
+        <item > Integer</item>
+        <item > system() </item>
+        <item > real</item>
+        <item > False</item>
+        <item > ptr is a pointer to an array of 10 integers</item>
+        <item > Infinitely</item>
+        <item > use 3.14L</item>
+        <item > argv</item>
+        <item > The number of arguments plus one</item>
+        <item > fgets(x, 100, stdin);</item>
+        <item > int funct(int x) {return x=x+1;}</item>
+        <item > struct a_struct {int a;}</item>
+        <item > char:a;</item>
+        <item >flushes only specified stream</item>
+        
+    </string-array>
+    
+    <string-array name="c_quiz_option3">
+        <item > malloc() and calloc()</item>
+        <item > Float</item>
+        <item > main() </item>
+        <item > int</item>
+        <item > Unevaluatable</item>
+        <item > ptr is an array of 10 integers</item>
+        <item > 1</item>
+        <item > use 3.14DL</item>
+        <item > count</item>
+        <item > The number of arguments minus one</item>
+        <item > readline(x, 100, \'\n\');</item>
+        <item > void funct(int) { printf( "Hello"); </item>
+        <item > struct a_struct int a;</item>
+        <item > (char)a;</item>
+        <item >flushes input/output buffer</item>
+        
+    </string-array>
+    
+    <string-array name="c_quiz_option4">
+        <item > memalloc() and faralloc()</item>
+        <item > enum</item>
+        <item > program()</item>
+        <item > double</item>
+        <item >  </item>
+        <item > ptr is an pointer to array</item>
+        <item > Variable</item>
+        <item > use 3.14LF</item>
+        <item > arglen</item>
+        <item > The total size of the argument array</item>
+        <item > read(x)</item>
+        <item > void funct(x) { printf( "Hello"); }</item>
+        <item > struct a_struct {int a;};</item>
+        <item > to(char, a);</item>
+        <item > flushes file buffer</item>
+        
+    </string-array>
+    
+    <integer-array name="c_quiz_answer1">
+                <item >2</item>
+                <item >2</item>
+                <item >2</item>
+                <item >3</item>
+                <item >0</item>
+                <item >1</item>
+                <item >2</item>
+                <item >1</item>
+                <item >0</item>
+                <item >1</item>
+                <item >0</item>
+                <item >1</item>
+                <item >3</item>
+                <item >2</item>
+                <item >0</item>
+                
+    </integer-array>
+
+        <string-array name="html_quiz_questions">
+        <item > How to insert an image in HTML?</item>
+        <item > Choose the correct HTML element for the largest heading:</item>
+        <item > What is the correct HTML for creating a hyperlink?</item>
+        <item > How can you make a numbered list?</item>
+        <item > What is the correct HTML for making a text input field?</item>
+        <item > What is the div tag used for ?</item>
+        <item > An &lt;iframe&gt; is used to display a web page within a web page</item>
+        <item > Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?</item>
+        <item > What does HTML stand for?</item>
+        <item > What is cell padding?</item>
+        <item > Can I play audios in HTML?</item>
+        <item > What attribute is used to specify number of rows?</item>
+        <item > In this line &lt;body bgcolor="#ffffff"&gt; what are the range of digits you can use and what are the range of letters you can use in the six places in a color code?</item>
+        <item > What are the range of heading tags available using HTML?</item>
+        <item > Gif is a</item>
+        
+    </string-array>
+    
+    <string-array name="html_quiz_option1">
+        <item > &lt;IMG =…&gt;</item>
+        <item > &lt;head&gt;</item>
+        <item > &lt;a href="http://www.w3schools.com"&gt;W3Schools&lt;/a&gt;</item>
+        <item > &lt;dl&gt;</item>
+        <item > &lt;input type="textfield"&gt;</item>
+        <item > To replace paragraphs. i.e. p tags</item>
+        <item > False</item>
+        <item > alt</item>
+        <item > Home Tool Markup Language</item>
+        <item > Used to separate cell walls from their contents</item>
+        <item > No</item>
+        <item > Rownum</item>
+        <item > 0-8 &amp; a-s</item>
+        <item > &lt;h1&gt; to &lt;h3&gt;</item>
+        <item > The language of the Web</item>
+    </string-array>
+    
+    <string-array name="html_quiz_option2">
+        <item > &lt;IMG SOURCE = …&gt;</item>
+        <item > &lt;h6&gt;</item>
+        <item > &lt;a name="http://www.w3schools.com"&gt;W3Schools.com&lt;/a&gt;</item>
+        <item > &lt;ul&gt;</item>
+        <item > &lt;textfield&gt;</item>
+        <item > To logically divide the paragraphs</item>
+        <item > There is no such thing as an &lt;iframe&gt;</item>
+        <item > src</item>
+        <item > Hyperlinks and Text Markup Language</item>
+        <item > Used to set space between cells </item>
+        <item > Yes</item>
+        <item > Rownumb</item>
+        <item > 2-9 &amp; b-t</item>
+        <item > &lt;h1&gt; to &lt;h6&gt;</item>
+        <item > Common graphic format on the Web.</item>
+    </string-array>
+    
+    <string-array name="html_quiz_option3">
+        <item > &lt;IMG SRC = …&gt;</item>
+        <item > &lt;heading&gt;</item>
+        <item > &lt;a&gt;http://www.w3schools.com&lt;/a&gt;</item>
+        <item > &lt;list&gt; </item>
+        <item > &lt;input type="text"&gt;</item>
+        <item > To logically divide the document</item>
+        <item > True </item>
+        <item > title</item>
+        <item > Hyper Text Markup Language</item>
+        <item > Both a and b above</item>
+        <item > ---- </item>
+        <item > rn</item>
+        <item > 0-9 &amp; a-f</item>
+        <item > &lt;h1&gt; to &lt;h8&gt;</item>
+        <item > A company that provides access to the Internet</item>
+    </string-array>
+    
+    <string-array name="html_quiz_option4">
+        <item > &lt;IMG HREF = …&gt;</item>
+        <item > &lt;h1&gt;</item>
+        <item > &lt;a url="http://www.w3schools.com"&gt;W3Schools.com&lt;/a&gt;</item>
+        <item > &lt;ol&gt;</item>
+        <item > &lt;textinput type="text"&gt;</item>
+        <item > To provide space between tables</item>
+        <item > ---- </item>
+        <item > longdesc  </item>
+        <item > ---- </item>
+        <item > Used to provide width to a cell</item>
+        <item > ---- </item>
+        <item > Rowspan</item>
+        <item > 0-8 &amp; a-f</item>
+        <item > &lt;h1&gt; to &lt;h7&gt;</item>
+        <item > Common questions and answers</item>
+            </string-array>
+    
+    <integer-array name="html_quiz_answer1">
+                <item >2</item>
+                <item >3</item>
+                <item >0</item>
+                <item >3</item>
+                <item >0</item>
+                <item >2</item>
+                <item >2</item>
+                <item >0</item>
+                <item >2</item>
+                <item >0</item>
+                <item >1</item>
+                <item >3</item>
+                <item >2</item>
+                <item >1</item>
+                <item >1</item>
+                
+    </integer-array>
+    
+        <string-array name="sql_quiz_questions">
+        <item >Course(course_id,sec_id,semester)&#xA;.Here the course_id,sec_id and semester are __________ and course is a _________ .</item>
+        <item >Select * from employee .
+			   What type of statement is this?
+        </item>
+        <item >Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?</item>
+        <item >Insert into employee _____ (1002,Joey,2000);
+				In the given query which of the keyword has to be inserted ?
+        </item>
+        <item >Using the ______ clause retains only one copy of such identical tuples.</item>
+        <item >Which of the join operations do not preserve non matched tuples.</item>
+        <item >Update instructor
+				_____ salary= salary * 1.05;
+				Fill in with correct keyword to update the instructor relation.
+        </item>
+        <item >In order to undo the work of transaction after last commit which one should be used ?</item>
+        <item >Which of the following is used to access the database server at time of executing the program and get the data from the server accordingly ?</item>
+        <item >Triggers are supported in</item>
+        <item >Updating the value of the view</item>
+        <item >_________ are useful in SQL update statements,where they can be used in the set clause.</item>
+        <item >A technique for direct search is</item>
+        <item >The ___________ operation, denoted by −, allows us to find tuples that are in one relation but are not in another.</item>
+        <item >Foreign key is the one in which the ________ of one relation is referenced in another relation.</item>
+    </string-array>
+    
+    <string-array name="sql_quiz_option1">
+        <item >Relations, Attribute</item>
+        <item >DML</item>
+        <item >Candidate key</item>
+        <item >Table</item>
+        <item >Null</item>
+        <item >Left outer join</item>
+        <item >Where</item>
+        <item >View</item>
+        <item >Embedded SQL</item>
+        <item >Delete</item>
+        <item >Will affect the relation from which it is defined</item>
+        <item >Multiple queries</item>
+        <item >Binary Search</item>
+        <item >Union</item>
+        <item >Foreign key</item>
+    </string-array>
+    
+    <string-array name="sql_quiz_option2">
+        <item >Attributes, Relation</item>
+        <item >DDL</item>
+        <item >Sub key</item>
+        <item >Values</item>
+        <item >Unique</item>
+        <item >Right outer join</item>
+        <item >Set</item>
+        <item >Commit</item>
+        <item >Dynamic SQL</item>
+        <item >Update</item>
+        <item >Will not change the view definition</item>
+        <item >Sub queries</item>
+        <item >Linear Search</item>
+        <item >Set-difference</item>
+        <item >Primary key</item>
+    </string-array>
+    
+    <string-array name="sql_quiz_option3">
+        <item >Tuple, Relation</item>
+        <item >View</item>
+        <item >Super key</item>
+        <item >Relation</item>
+        <item >Not Null</item>
+        <item >Inner join</item>
+        <item >In</item>
+        <item >Rollback</item>
+        <item >SQL declarations</item>
+        <item >Views</item>
+        <item >Will not affect the relation from which it is defined</item>
+        <item >Update</item>
+        <item >Tree Search</item>
+        <item >Difference</item>
+        <item >References</item>
+    </string-array>
+    
+    <string-array name="sql_quiz_option4">
+        <item >Tuple, Attributes</item>
+        <item >Integrity constraint</item>
+        <item >Foreign key</item>
+        <item >Field</item>
+        <item >Distinct</item>
+        <item >Natural join</item>
+        <item >Select</item>
+        <item >Flashback</item>
+        <item >SQL data analysis</item>
+        <item >All of the mentioned</item>
+        <item >Cannot determine</item>
+        <item >Scalar subqueries</item>
+        <item >Hashing</item>
+        <item >Intersection</item>
+        <item >Check constraint</item>
+    </string-array>
+    
+    <integer-array name="sql_quiz_answer1">
+                <item >1</item>
+                <item >0</item>
+                <item >2</item>
+                <item >1</item>
+                <item >3</item>
+                <item >2</item>
+                <item >1</item>
+                <item >2</item>
+                <item >1</item>
+                <item >2</item>
+                <item >0</item>
+                <item >3</item>
+                <item >3</item>
+                <item >1</item>
+                <item >1</item>
+    </integer-array>
+          
+</resources>

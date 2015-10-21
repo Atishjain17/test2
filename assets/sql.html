@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html class=" js touch csstransforms3d csstransitions">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="file:///android_asset/style-min.css">
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<script type="text/javascript" src="file:///android_asset/script-min-v4.js"></script>
+
+</head>
+<body style="background-color:white">
+
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is the difference between DBMS and RDBMS?</label>
+<div class="toggle-content" >
+<p>A database management system (DBMS) is system for the efficient creation, storage, retrieval, updation and management of data.A Relational Database Management System (RDBMS) is a system based on the relational model and has replaced normal databases because of its ease to use and access.
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is a field, record and table in a database?</label>
+<div class="toggle-content">
+<p>A field is an area reserved for a specific piece of data. A record is the collection of values / fields of a specific entity and a table is a collection of records of a specific type.Eg: An Employee table having Employee ID, Salary as columns will have any single employee id or salary value as the field. An entire row is a record.
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are the advantages and disadvantages of SQL?Give some examples of databases.</label>
+<div class="toggle-content">
+<p>SQL stands for Structured Query Language.  Advantages of SQL:<br>
+1) Quick and efficient for retrieval, updation, insertion of records.<br>
+2)All the major databases incorporate SQL. Eg: Oracle, MySql, SqLite<br>
+3)Little amount of coding.<br>
+Disadvantages:<br>
+1)It is difficult to interface an SQL database.
+
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i>What are database indexes and how do they work?</label>
+<div class="toggle-content">
+<p>
+A database index is a data structure to speed up search queries by cutting down the number of records/rows in a table that need to be examined. An index consists of column values from one table.Indexing methods could either be clustered or non clustered.<br>
+Working of Hash Index:<br>
+The reason hash indexes are used is because hash tables are extremely efficient when it comes to just looking up values. So, queries that compare for equality to a string can retrieve values very fast if they use a hash index.<br> For instance, the query (SELECT * FROM Employee WHERE EMP_ID = ‘100) could benefit from a hash index created on the EMP_ID column. The way a hash index would work is that the column value will be the key into the hash table and the actual value mapped to that key would just be a pointer to the row data in the table. 
+</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are the type of keys in SQL?</label>
+<div class="toggle-content">
+<p>
+According to the SQL Standard, a key is a subset of columns in a table that allow a row to be uniquely identified. There are different types of keys:<br>
+1) Primary Key:  A primary key is a column used to uniquely identify every row in the table.This value cannot be null and no two rows can have the same primary keys values.<br>
+2) Foreign Key:  A foreign key is a field or a group of fields in a database record that points to a primary of some other table. <br>
+3) Candidate Key: A candidate key is the one that can act as a primary key.<br>
+4) Super Key: A super key can be defined as a set of attributes of a relational variable upon which all attributes of the relational variable are dependant.<br>
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is referential integrity?</label>
+<div class="toggle-content">
+<p>
+Referential integrity is a relational database concept in which multiple tables share a relationship based on the data stored in the tables, and that relationship must remain consistent. It is the concept of foreign key referencing the primary key of another table.</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i>What is transaction?</label>
+<div class="toggle-content">
+<p>A transaction is a single unit of work performed against a database. Transactions are units or sequences of work accomplished in a logical order and the propagation of one or more changes to the database.</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i>What are the properties of transactions? </label>
+<div class="toggle-content">
+<p>Atomicity: According to this property, every transaction must be treated as a signal unit of work. Also, there must not be a partially left state for a transaction.<br>
+Consistency: The database must remain in a consistent state after execution of any transaction.  If the database was in a consistent state before the execution of a transaction, it must remain consistent later on too.<br>
+Isolation: All the transactions will be executed as a single transaction is being executed. Transactions are actually executed in parallel however no transaction will affect the execution of other. <br>
+Durability: The system must be durable and must hold all the latest updates. After the successful execution of a transaction, its data must be permanently available to others.<br>
+</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are the types of joins in SQL? </label>
+<div class="toggle-content">
+<p>SQL joins are used to combine data from two tables based on common fields between them. Types of joins:<br>
+Inner Join: Returns all rows when there is at least one match in BOTH the tables<br>
+Left Join: Returns all rows from the left table and the matched rows from the right table<br>
+Right Join: Returns all rows from the right table and the matched rows from the left table<br>
+Full Join: Returns all rows when there is a match in ONE of the tables<br>
+
+</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is normalization and types of normalization?</label>
+<div class="toggle-content">
+<p>Normalization is the process of removing redundant data from a database by splitting it.<br>
+First Normal Form: As per 1NF, no two rows of data must contain repeating data. Each table should be organized into rows and there is a primary key for each row that makes it unique.<br>
+Second Normal Form: As per the 2NF, there must not be any partial dependency of any column on primary key.<br> 
+Third Normal Form: As per 3NF, there must not be any transitive functional dependency i.e a non-prime attribute must not be determined by another non-prime attribute.<br>
+Boyce and Codd Normal Form: A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:<br>
+•	R must be in 3rd Normal Form<br>
+•	and, for each functional dependency ( X -> Y ), X should be a super Key.<br>
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are some basic SQL commands?</label>
+<div class="toggle-content">
+<p>Inserting in database:   INSERT INTO TABLE_NAME (column1, column2,……) VALUES (value1,value2,….)<br>
+Retrieving from database:   SELECT column1, column2…. FROM TABLE_NAME<br>
+Updating database:   UPDATE TABLE_NAME SET column1=value, column2=value,… WHERE column=value<br>
+Deleting from database: DELETE FROM TABLE_NAME WHERE column= value<br>
+</p>
+</div>
+</section>
+
+<!-- Libs -->
+<script type="text/javascript" src="file:///android_asset/custom-min.js"></script>
+</body>
+</html>

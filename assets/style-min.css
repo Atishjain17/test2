@@ -1,0 +1,23 @@
+body{background-color:#eee;color:#313131;font-family:Verdana,Geneva,Tahoma,Arial,Helvetica,sans-serif;font-size:14px;line-height:22px;margin:0px}
+body{background-color:#eee;color:#313131;font-family:Georgia,serif;font-style:italic;font-size:14px;line-height:22px;margin:0px}
+label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:bold;font-family:Josefin Slab,Georgia, serifVerdana,Geneva,Tahoma,Arial,Helvetica,sans-serif;font-style:normal;}
+body{background:url(./pattern.png) repeat top left;}
+Section.toggle
+section.toggle{margin:10px 3px;position:relative;clear:both}
+section.toggle>input{cursor:pointer;filter:alpha(opacity=0);height:45px;margin:0;opacity:0;position:absolute;width:100%;z-index:2}
+section.toggle>label{-moz-transition:all .15s ease-out;-o-transition:all .15s ease-out;-webkit-transition:all .15s ease-out;border-left:3px;color:#000;display:block;font-size:1.1em;min-height:20px;padding:12px 20px 12px 10px;position:relative;cursor:pointer;font-weight:400;transition:all .15s ease-out;border-top:2px ridge grey; }
+section.toggle>label:-moz-selection{background:0}
+section.toggle>div.toggle-content{display:none; margin:0 15px}
+section.toggle>label i.icon-plus{display:inline}
+section.toggle>label:selection{background:0}
+section.toggle>label i.icon-minus{display:none}
+section.toggle>label:before{border:6px solid transparent;border-left-color:inherit;content:'';margin-top:-6px;position:absolute;right:4px;top:50%}
+section.toggle>label:hover{color: #1693eb;}
+section.toggle>label+p{color:#999;display:block;overflow:hidden;padding-left:30px;text-overflow:ellipsis;white-space:nowrap;height:25px}
+section.toggle>label i{font-size:.7em;margin-right:8px;position:relative;top:-1px}
+section.toggle.active i.icon-minus{display:inline}
+section.toggle.active i.icon-plus{display:none}
+section.toggle.active>label{border-color:#CCC;color: #1693eb;}
+section.toggle.active>label:before{border:6px solid transparent;border-top-color:inherit;margin-top:-3px;right:10px}
+section.toggle>p.preview-active{height:auto}
+section.toggle>p.preview-active,section.toggle.active>p{white-space:normal}

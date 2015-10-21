@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class=" js touch csstransforms3d csstransitions">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="file:///android_asset/style-min.css">
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<script type="text/javascript" src="file:///android_asset/script-min-v4.js"></script>
+
+</head>
+<body style="background-color:white">
+
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are the features of C?</label>
+<div class="toggle-content" >
+<p> C is:<br>
+<ul>
+<li>Low level language support </li>
+<li>Program Portability</li>
+<li>Powerful and Feature Rich</li>
+<li>Bit Manipulation</li>
+<li>High Level features</li>
+<li>Modular Programming</li>
+<li>Efficient use of pointers</li>
+<li>Used for writing Assembly Language Codes</li>
+</ul></p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is the difference between C and Java?</label>
+<div class="toggle-content">
+<p>1. JAVA is Object-Oriented while C is procedural.<br>
+Most differences between the features of the two languages arise due to the use of differentprogramming paradigms. C breaks down to functions while JAVA breaks down to Objects. C is more procedure-oriented while JAVA is data-oriented.<br>
+<br>2. Java is an Interpreted language while C is a compiled language.<br>
+We all know what a compiler does. It takes your code & translates it into something the machine can understand-that is to say-0’s & 1’s-the machine-level code. That’s exactly what happens with our C code-it gets ‘compiled’. While with JAVA, the code is first transformed to what is called the bytecode. This bytecode is then executed by the JVM(Java Virtual Machine). For the same reason, JAVA code is more portable.
+<br><br>3.C is a low-level language while JAVA is a high-level language.<br>
+C is a low-level language(difficult interpretation for the user, closer significance to the machine-level code) while JAVA is a high-level lagunage(abstracted from the machine-level details, closer significance to the program itself).
+<br><br>4. C uses the top-down {sharp & smooth} approach while JAVA uses the bottom-up {on the rocks} approach.<br>
+In C, formulating the program begins by defining the whole and then splitting them into smaller elements. JAVA(and C++ and other OOP languages) follows the bottom-up approach where the smaller elements combine together to form the whole.
+<br><br>5. Pointer go backstage in JAVA while C requires explicit handling of pointers.<br>
+When it comes to JAVA, we don’t need the *’s & &’s to deal with pointers & their addressing. More formally, there is no pointer syntax required in JAVA. It does what it needs to do. While in JAVA, we do create references for objects.
+<br></p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> Define structure.</label>
+<div class="toggle-content">
+<p>
+A structure is a collection of variables under a single name. These variables can be of different types, and each has a name which is used to select it from the structure. A structure is a convenient way of grouping several pieces of related information together.</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> How is a negative integer stored?</label>
+<div class="toggle-content">
+<p> Get the two’s compliment of the same positive integer. <br>Eg: 1101 (-5)
+1: One’s compliment of 5 : 1010<br>
+2: Add 1 to above, giving 1011, which is -5<br>
+</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is lvalue and rvalue?</label>
+<div class="toggle-content">
+<p>The expression appearing on right side of the assignment operator is called as rvalue. Rvalue is assigned to lvalue, which appears on left side of the assignment operator. The lvalue should designate to a variable not a constant.</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is a preprocessor?</label>
+<div class="toggle-content">
+<p>The preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many implementations, it is a separate program invoked by the compiler as the first part of translation.</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is null pointer ?</label>
+<div class="toggle-content">
+<p>Literal meaning of NULL pointer is a pointer which is pointing to nothing. NULL pointer points the base address of segment.<br>
+Examples of NULL pointer:<br>
+ int *ptr=(char *)0;<br>
+ float *ptr=(float *)0;<br>
+ char *ptr=(char *)0;<br>
+ double *ptr=(double *)0;<br>
+ char *ptr=’\0’;<br>
+ int *ptr=NULL;<br>
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What is a constant pointer?</label>
+<div class="toggle-content">
+<p>A pointer which is not allowed to be altered to hold another address after it is holding one.</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i>What are the different storage classes in C? </label>
+<div class="toggle-content">
+<p>C has three types of storage. Automatic, static and allocated. <br>
+Automatic storage duration is for variables having block scope without static specifier.<br>
+Static storage is for variables having block scope and with static specifier.<br>
+It is also for global variables with or without static specifier. Memory obtained from calls to malloc, calloc, relloc belongs to allocated storage class.<br>
+</p> 
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i>Write a c program to modify the constant variable in c? </label>
+<div class="toggle-content">
+<p>We can modify constant variable with the help of pointers. For example:<br>
+
+#include<stdio.h><br>
+int main(){<br>
+    int i=10;<br>
+    int *ptr=&i;<br>
+    *ptr=(int *)20;<br>
+    printf("%d",i);<br>
+    return 0;<br>
+}<br>
+Output: 20 
+</p>
+</div>
+</section>
+<section class="toggle">
+<label><i class="icon icon-minus"></i><i class="icon icon-plus"></i> What are some valid operations on pointers?</label>
+<div class="toggle-content">
+<p>The only two permitted operations on pointers are<br>
+1) Comparison<br>2) Addition/Subtraction (excluding void pointers)
+</p>
+</div>
+<!-- Libs -->
+<script type="text/javascript" src="file:///android_asset/custom-min.js"></script>
+</body>
+</html>
